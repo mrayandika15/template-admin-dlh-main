@@ -1,0 +1,30 @@
+.container {
+  @apply flex p-4
+         w-full h-full;
+}
+
+table {
+  @apply w-full table-auto h-full 
+         shadow-md rounded-md;
+}
+
+thead {
+  @apply bg-background text-backgroundText
+          text-base font-normal;
+}
+
+thead th {
+  @apply text-base font-normal p-2;
+}
+
+.action__container {
+  @apply flex justify-center items-center h-full;
+}
+
+tr {
+  @apply shadow-md;
+}
+
+td {
+  @apply text-gray-600 text-center px-2;
+}

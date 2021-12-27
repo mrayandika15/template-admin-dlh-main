@@ -1,0 +1,26 @@
+.nav__container {
+  @apply flex flex-col  
+         w-full h-full 
+         fixed inset-0 
+         bg-white
+         z-30;
+}
+
+.logo__container {
+  @apply w-full mt-14 mb-10
+         flex justify-center items-center;
+}
+
+.logo__container img {
+  @apply w-20;
+}
+
+.button__container {
+  @apply w-full mb-20
+         flex flex-col justify-center items-center;
+}
+
+.logout__container {
+  @apply w-full
+         flex justify-center items-center;
+}

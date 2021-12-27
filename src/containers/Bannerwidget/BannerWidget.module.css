@@ -1,0 +1,7 @@
+.container {
+  @apply flex flex-col
+         w-full h-auto
+         items-center my-2;
+
+  @apply md:flex md:flex-row md:items-start md:justify-around;
+}

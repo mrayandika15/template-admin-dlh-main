@@ -1,0 +1,19 @@
+.container {
+  @apply flex items-center 
+         bg-white 
+          w-80 h-10 my-8
+          border border-gray-200 rounded-xl;
+
+  @apply md:flex md:w-full;
+}
+.input {
+  @apply w-full  focus:outline-none;
+}
+
+.icon {
+  @apply flex justify-center items-center mx-2;
+}
+
+.icon img {
+  @apply w-4;
+}

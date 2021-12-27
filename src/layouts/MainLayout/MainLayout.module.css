@@ -1,0 +1,5 @@
+.container {
+  @apply flex justify-start 
+           w-full h-full  
+           overflow-x-hidden;
+}

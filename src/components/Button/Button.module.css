@@ -1,0 +1,109 @@
+.btn {
+  @apply bg-primary rounded-lg cursor-pointer
+          shadow-lg w-min m-2
+          flex justify-center items-center 
+          font-semibold text-white 
+          transition transition-colors transition-transform transform hover:-translate-y-1;
+}
+
+.rightIcon {
+  @apply flex flex-row-reverse justify-center items-center;
+}
+
+.sidebarActive {
+  @apply flex rounded-md justify-start 
+         w-3/4 h-10;
+}
+.sidebarInactive {
+  @apply w-3/4 h-10
+         flex rounded-md justify-start
+         bg-transparent shadow-none 
+         font-bold text-gray-400 
+         hover:bg-primary hover:text-white;
+}
+
+.sidebarInactive .icon img {
+  filter: invert(96%) sepia(93%) saturate(1758%) hue-rotate(176deg)
+    brightness(81%) contrast(100%);
+}
+
+.sidebarInactive:hover .icon img {
+  filter: invert(100%) sepia(81%) saturate(0%) hue-rotate(295deg)
+    brightness(105%) contrast(105%);
+}
+
+.icon {
+  @apply flex mx-2 items-center justify-center;
+}
+
+.icon img {
+  filter: invert(100%) sepia(81%) saturate(0%) hue-rotate(295deg)
+    brightness(105%) contrast(105%);
+}
+
+.primary {
+  @apply rounded-3xl 
+          w-24 h-10 shadow-md
+         text-sm font-semibold;
+}
+.danger {
+  @apply bg-danger
+         w-24 h-10 rounded-3xl  
+         text-sm font-semibold;
+}
+
+.yesmodal {
+  @apply bg-white text-black
+         rounded-3xl px-12 py-3  
+         border shadow-md border-gray-200 
+         transition transition-colors hover:bg-green-500 hover:text-white hover:border-transparent;
+}
+
+.nomodal {
+  @apply bg-white  text-black 
+           rounded-3xl px-12 py-3  
+           border shadow-md border-gray-200 
+           transition transition-colors hover:bg-red-500 hover:text-white hover:border-transparent;
+}
+
+.widget {
+  @apply w-32 h-10 m-0 rounded-3xl 
+         font-semibold text-sm shadow-none;
+}
+
+.detail {
+  @apply text-primary 
+          w-60 border-none 
+          text-lg font-semibold bg-transparent shadow-none;
+}
+
+.detail .icon img {
+  filter: invert(35%) sepia(6%) saturate(4521%) hue-rotate(162deg)
+    brightness(96%) contrast(75%);
+}
+
+.userButton {
+  @apply flex w-56 h-9 rounded-2xl;
+}
+
+.loginButton {
+  @apply flex w-56 h-12 rounded-3xl font-normal;
+}
+
+.buttonLogout {
+  @apply text-primary bg-transparent
+           border-none shadow-none    
+           w-3/4
+           justify-start;
+}
+
+.navMobile {
+  @apply flex justify-center items-center 
+         w-12 h-12 
+         rounded-full
+         bg-transparent
+         shadow-none
+         z-50 relative;
+
+  @apply md:hidden;
+}

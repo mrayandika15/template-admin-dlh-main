@@ -1,0 +1,20 @@
+.container {
+  @apply flex items-center 
+       bg-white 
+        w-80 h-10 m-5 
+        border border-gray-200 rounded-xl hidden;
+
+  @apply md:flex;
+}
+
+.searchInput {
+  @apply w-full  focus:outline-none;
+}
+
+.icon {
+  @apply flex justify-center items-center mx-2;
+}
+
+.icon img {
+  @apply w-4;
+}

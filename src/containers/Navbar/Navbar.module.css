@@ -1,0 +1,4 @@
+.container {
+  @apply flex justify-between items-end
+          w-full h-auto;
+}

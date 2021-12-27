@@ -1,0 +1,15 @@
+.container {
+  @apply flex flex-col w-full m-5;
+}
+
+.name {
+  @apply font-semibold text-xs text-primary;
+
+  @apply sm:text-sm;
+}
+
+.header {
+  @apply font-bold text-xl text-primary;
+
+  @apply sm:text-2xl;
+}

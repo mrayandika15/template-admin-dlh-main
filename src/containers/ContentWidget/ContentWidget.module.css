@@ -1,0 +1,30 @@
+.container {
+  @apply flex flex-col 
+         w-full h-full;
+}
+
+.section__container {
+  @apply flex flex-col justify-between
+          w-full h-1/2
+          py-4 px-4 my-2;
+
+  @apply md:flex-row;
+}
+
+.large__content {
+  @apply w-full h-full my-2;
+
+  @apply md:w-2/3 md:my-0;
+}
+
+.medium__content {
+  @apply w-full h-auto my-2;
+
+  @apply md:my-0;
+}
+
+@media (min-width: 768px) {
+  .medium__content {
+    width: 29%;
+  }
+}

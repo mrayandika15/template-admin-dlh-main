@@ -1,0 +1,15 @@
+.processContainer {
+  @apply w-28 h-8 m-5 flex justify-center items-center  bg-processColor rounded-md;
+}
+
+.processContainer p {
+  @apply font-semibold text-processText;
+}
+
+.finishContainer {
+  @apply w-28 h-8 m-5 flex justify-center items-center  bg-finishColor rounded-md;
+}
+
+.finishContainer p {
+  @apply font-semibold text-finishText;
+}

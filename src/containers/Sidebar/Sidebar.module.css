@@ -1,0 +1,31 @@
+.container {
+  @apply w-72 h-screen fixed
+         bg-white
+         flex flex-col
+         shadow-xl
+         hidden
+         z-50;
+
+  @apply md:flex;
+}
+
+.logo__container {
+  @apply flex justify-center w-full items-center mb-10;
+}
+
+.logo__container img {
+  @apply w-28;
+}
+
+.button__container {
+  @apply w-full 
+         flex flex-col items-center justify-center;
+}
+
+.button__logout {
+  @apply flex justify-center items-center mt-28;
+}
+
+.hide {
+  @apply hidden;
+}
