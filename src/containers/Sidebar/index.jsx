@@ -15,7 +15,7 @@ import {
 // components
 import { Button } from "../../components";
 
-export const Sidebar = (props) => {
+const Sidebar = (props) => {
   const history = useHistory();
   const sidebarActive = props.sidebarActive;
 
@@ -107,3 +107,5 @@ export const Sidebar = (props) => {
     </div>
   );
 };
+
+export default Sidebar;

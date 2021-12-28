@@ -3,7 +3,7 @@ import { Widget } from "../../components";
 import style from "./ContentWidget.module.css";
 import { chartWidget, onePeople } from "../../assets";
 
-export const ContentWidget = () => {
+const ContentWidget = () => {
   return (
     <div className={style.container}>
       <div className={style.section__container}>
@@ -45,3 +45,5 @@ export const ContentWidget = () => {
     </div>
   );
 };
+
+export default ContentWidget;

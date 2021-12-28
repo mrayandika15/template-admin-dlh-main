@@ -2,11 +2,12 @@ import React from "react";
 import { Navbar } from "../../containers";
 import { DashboardLayout } from "../../layouts";
 
-export const BodParsial = () => {
+const BodPotensial = () => {
   return (
     <DashboardLayout>
-      <Navbar header="Data BOD Parsial" />
-      
+      <Navbar header="Data BOD Potensial" />
     </DashboardLayout>
   );
 };
+
+export default BodPotensial;

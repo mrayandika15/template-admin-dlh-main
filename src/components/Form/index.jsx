@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./Form.module.css";
 
-export const Form = (props) => {
+const Form = (props) => {
   const hasIcon = props.hasIcon;
 
   return (
@@ -25,3 +25,5 @@ export const Form = (props) => {
 Form.defaultProps = {
   hasIcon: false,
 };
+
+export default Form;

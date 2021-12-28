@@ -3,7 +3,7 @@ import style from "./Widget.module.css";
 import { Button } from "..";
 import { arrowRight } from "../../assets";
 
-export const Widget = (props) => {
+const Widget = (props) => {
   const smallWidget = props.smallWidget;
   const largeWidget = props.largeWidget;
   const mediumWidget = props.mediumWidget;
@@ -109,3 +109,5 @@ Widget.propsDefault = {
   history: false,
   userWidget: false,
 };
+
+export default Widget;

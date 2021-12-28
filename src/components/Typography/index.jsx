@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./Typography.module.css";
 
-export const Typography = (props) => {
+const Typography = (props) => {
   return (
     <div className={style.container}>
       <div className={style.name}>Hi {props.name}</div>
@@ -9,3 +9,5 @@ export const Typography = (props) => {
     </div>
   );
 };
+
+export default Typography;

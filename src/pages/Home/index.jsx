@@ -1,6 +1,5 @@
 import React from "react";
-import { ContentWidget, Navbar } from "../../containers";
-import { Bannerwidget } from "../../containers/Bannerwidget/Bannerwidget";
+import { ContentWidget, Navbar, Bannerwidget } from "../../containers";
 // Layout
 import { HomeLayout, DashboardLayout } from "../../layouts";
 

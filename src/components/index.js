@@ -1,12 +1,12 @@
-import Button from "./Button/Button";
-import { Card } from "./Card/Card";
-import { Widget } from "./Widget/Widget";
-import { SearchBar } from "./SearchBar/SearchBar";
-import { Status } from "./Status/Status";
-import { Typography } from "./Typography/Typography";
-import { NavbarMobile } from "./NavbarMobile/NavbarMobile";
-import { Table } from "./Table/Table";
-import { Form } from "./Form/Form";
+import Button from "./Button";
+import Card from "./Card";
+import Widget from "./Widget";
+import SearchBar from "./SearchBar";
+import Status from "./Status";
+import Typography from "./Typography";
+import NavbarMobile from "./NavbarMobile";
+import Table from "./Table";
+import Form from "./Form";
 
 export {
   Button,

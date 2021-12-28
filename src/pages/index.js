@@ -1,10 +1,10 @@
-import Home from "./Home/Home";
-import AuthView from "./AuthView/AuthView";
-import NotFound from "./NotFound/NotFound";
-import { BodPotensial } from "./BodPotensial/BodPotensial";
-import { BodParsial } from "./BodParsial/BodParsial";
-import { Datauser } from "./Datauser/Datauser";
-import { SettingDashboard } from "./SettingDashboard/SettingDashboard";
+import Home from "./Home";
+import AuthView from "./AuthView";
+import NotFound from "./NotFound";
+import BodPotensial from "./BodPotensial";
+import BodParsial from "./BodParsial";
+import Datauser from "./Datauser";
+import SettingDashboard from "./SettingDashboard";
 
 export {
   Home,

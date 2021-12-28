@@ -4,7 +4,7 @@ import style from "./Table.module.css";
 import { useTable } from "react-table";
 import { Button } from "..";
 
-export const Table = ({ columns, data }) => {
+const Table = ({ columns, data }) => {
   const tableInstance = useTable({ columns, data });
 
   const { getTableProps, getTableBodyProps, headerGroups, rows, prepareRow } =
@@ -49,3 +49,5 @@ export const Table = ({ columns, data }) => {
     </div>
   );
 };
+
+export default Table;

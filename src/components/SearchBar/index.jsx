@@ -3,7 +3,7 @@ import style from "./SeachBar.module.css";
 
 import { searchIcon } from "../../assets";
 
-export const SearchBar = () => {
+const SearchBar = () => {
   return (
     <div className={style.container}>
       <div className={style.icon}>
@@ -14,3 +14,5 @@ export const SearchBar = () => {
     </div>
   );
 };
+
+export default SearchBar;

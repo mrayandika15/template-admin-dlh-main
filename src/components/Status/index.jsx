@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./Status.module.css";
 
-export const Status = (props) => {
+const Status = (props) => {
   const className = [];
 
   const processType = props.process;
@@ -27,3 +27,5 @@ Status.defaultProps = {
   process: false,
   finish: false,
 };
+
+export default Status;

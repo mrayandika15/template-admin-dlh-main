@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./Card.module.css";
 
-export const Card = (props) => {
+const Card = (props) => {
   const className = [style.card];
 
   if (props.smallCard === true) {
@@ -24,3 +24,5 @@ Card.propsDefault = {
   mediumCard: false,
   largeCard: false,
 };
+
+export default Card;

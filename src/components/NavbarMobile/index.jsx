@@ -13,7 +13,7 @@ import {
 
 import style from "./NavMobile.module.css";
 
-export const NavbarMobile = () => {
+const NavbarMobile = () => {
   const [navToggler, setNavToggler] = useState(false);
 
   const navHandler = () => {
@@ -77,3 +77,5 @@ export const NavbarMobile = () => {
     </div>
   );
 };
+
+export default NavbarMobile;

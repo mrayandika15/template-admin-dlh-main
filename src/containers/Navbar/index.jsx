@@ -3,7 +3,7 @@ import { NavbarMobile, SearchBar, Typography } from "../../components";
 import style from "./Navbar.module.css";
 import { useSelector } from "react-redux";
 
-export const Navbar = (props) => {
+const Navbar = (props) => {
   const username = useSelector((state) => state.auth.username);
 
   return (
@@ -14,3 +14,5 @@ export const Navbar = (props) => {
     </div>
   );
 };
+
+export default Navbar;
