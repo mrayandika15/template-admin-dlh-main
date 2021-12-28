@@ -10,6 +10,14 @@ const Table = ({ columns, data }) => {
   const { getTableProps, getTableBodyProps, headerGroups, rows, prepareRow } =
     tableInstance;
 
+  const onUpdateHandler = (slug) => {
+    console.log(slug);
+  };
+
+  const onDeleteHandler = (slug) => {
+    console.log(slug);
+  };
+
   return (
     <div className={style.container}>
       <table {...getTableProps()}>
@@ -34,10 +42,18 @@ const Table = ({ columns, data }) => {
                   );
                 })}
                 <td className={style.action__container}>
-                  <Button primary height={30}>
+                  <Button
+                    primary
+                    height={30}
+                    onClick={() => onUpdateHandler(row.original.id)}
+                  >
                     Update
                   </Button>
-                  <Button danger height={30}>
+                  <Button
+                    danger
+                    height={30}
+                    onClick={() => onDeleteHandler(row.original.id)}
+                  >
                     Delete
                   </Button>
                 </td>

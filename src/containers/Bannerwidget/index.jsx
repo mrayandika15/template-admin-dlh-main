@@ -3,7 +3,7 @@ import { Widget } from "../../components";
 import style from "./BannerWidget.module.css";
 import { peopleIcon, titikPantau, pencerahan, chartIcon } from "../../assets";
 
-const Bannerwidget = () => {
+const BannerWidget = () => {
   return (
     <div className={style.container}>
       <Widget
@@ -41,4 +41,4 @@ const Bannerwidget = () => {
   );
 };
 
-export default Bannerwidget;
+export default BannerWidget;

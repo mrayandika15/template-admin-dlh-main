@@ -1,6 +1,6 @@
-import HomeLayout from "./HomeLayout/HomeLayout";
-import AuthLayout from "./AuthLayout/AuthLayout";
-import { DashboardLayout } from "./DashboardLayout/DashboardLayout";
-import { MainLayout } from "./MainLayout/MainLayout";
+import HomeLayout from "./HomeLayout";
+import AuthLayout from "./AuthLayout";
+import DashboardLayout from "./DashboardLayout";
+import MainLayout from "./MainLayout";
 
 export { HomeLayout, AuthLayout, DashboardLayout, MainLayout };
