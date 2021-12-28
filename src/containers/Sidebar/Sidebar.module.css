@@ -1,7 +1,7 @@
 .container {
   @apply w-72 h-screen fixed
          bg-white
-         flex flex-col
+          flex-col
          shadow-xl
          hidden
          z-50;

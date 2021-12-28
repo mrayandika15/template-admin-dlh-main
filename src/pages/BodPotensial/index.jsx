@@ -4,6 +4,8 @@ import { ListTable, Navbar } from "../../containers";
 import { DashboardLayout } from "../../layouts";
 import { getDataBod } from "../../services/BODPotensial";
 
+import { useHistory } from "react-router-dom";
+
 const BodPotensial = () => {
   const [Bod, setBod] = useState([]);
 
@@ -39,10 +41,21 @@ const BodPotensial = () => {
     },
   ];
 
+  const history = useHistory();
+
+  const CreateButtonHandler = () => {
+    history.push("/Input_Potensial");
+  };
+
   return (
     <DashboardLayout>
       <Navbar header="Data BOD Potensial" />
-      <ListTable listColumns={columns} listData={Bod} createTable="Buat Data" />
+      <ListTable
+        listColumns={columns}
+        listData={Bod}
+        createTable="Buat Data"
+        onClickCreate={CreateButtonHandler}
+      />
     </DashboardLayout>
   );
 };

@@ -1,0 +1,7 @@
+.container {
+  @apply w-full h-full px-12 py-2;
+}
+
+.content {
+  @apply flex w-full h-14  justify-between items-center bg-white shadow-md px-4 rounded-2xl;
+}

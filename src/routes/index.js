@@ -9,6 +9,7 @@ import {
   BodParsial,
   Datauser,
   SettingDashboard,
+  InputPotensial,
 } from "../pages";
 
 // pass your route here.
@@ -47,6 +48,12 @@ const routes = [
   {
     path: "/Setting_Dashboard",
     component: SettingDashboard,
+    exact: false,
+    sidebarActive: true,
+  },
+  {
+    path: "/input_Potensial",
+    component: InputPotensial,
     exact: false,
     sidebarActive: true,
   },

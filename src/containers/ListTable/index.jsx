@@ -3,11 +3,13 @@ import { Button, Card, Table } from "../../components";
 
 import style from "./ListTable.module.css";
 
-const ListTable = ({ listColumns, listData, createTable }) => {
+const ListTable = ({ listColumns, listData, createTable, onClickCreate }) => {
   return (
     <div className={style.container}>
       <div className={style.container__button}>
-        <Button primary> {createTable}</Button>
+        <Button primary onClick={onClickCreate}>
+          {createTable}
+        </Button>
       </div>
       <div className={style.container__form}>
         <Card>

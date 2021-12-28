@@ -5,6 +5,7 @@ import Sidebar from "./Sidebar";
 import ContentWidget from "./ContentWidget";
 import ListTable from "./ListTable";
 import BannerWidget from "./Bannerwidget";
+import PotensialForm from "./PontesialForm";
 
 export {
   BannerAuth,
@@ -14,4 +15,5 @@ export {
   ContentWidget,
   ListTable,
   BannerWidget,
+  PotensialForm,
 };
